@@ -1,6 +1,58 @@
+body {
+  background-image: url('images/background.png');
+}
+
 nav {
   position: fixed;
+  top: 0px;
+  left: 0px;
   background-color: black;
   color: white;
   width: 100%;
+  min-height: 10%;
+}
+
+.nav-links {
+  display: inline-block;
+  padding: 8px 0px;
+  margin: 0px;
+}
+
+.nav-links ul {
+  padding-left: 0px;
+}
+
+.nav-links ul li {
+  display: inline;
+  font-size: 22px;
+  padding: 0px 4px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  color: rgba(69, 196, 255, 1.0);
+}
+
+.site-title {
+  display: inline-block;
+  font-size: 24px;
+  background-color: rgba(39, 39, 39, 0.8);
+  padding: 0px 5px;
+  height: 100%;
+}
+
+@media all and (max-width: 477px) {
+  .nav-links ul li {
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+  }
 }
