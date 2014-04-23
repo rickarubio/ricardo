@@ -1,6 +1,7 @@
 body {
   background-image: url('images/background.png');
   margin-top: 100px;
+  font-family: 'Lato', 'sans-serif';
 }
 
 nav {
@@ -52,13 +53,17 @@ nav a:hover {
 
 .content {
   max-width: 80%;
-  height: 400px;
+  min-height: 400px;
   margin: auto;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   background-color: white;
   border: 2px groove silver;
   padding: 4px;
+}
+
+.content h1 {
+  text-align: center;
 }
 
 @media all and (max-width: 477px) {
