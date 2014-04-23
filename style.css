@@ -73,6 +73,24 @@ nav a:hover {
   text-align: center;
 }
 
+.content a, .content a:visited {
+  color: rgba(37, 142, 190, 1.0);
+}
+
+.content a:hover {
+  color: rgba(69, 196, 255, 1.0);
+}
+
+.content img {
+  display: block;
+  max-width: 80%;
+  margin: auto;
+}
+
+.source-code-link {
+  text-align: center;
+}
+
 @media all and (max-width: 477px) {
   .nav-links ul li {
     font-size: 16px;
