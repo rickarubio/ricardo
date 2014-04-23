@@ -57,9 +57,16 @@ nav a:hover {
   margin: auto;
   margin-top: 16px;
   margin-bottom: 16px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
   border: 2px groove silver;
   padding: 4px;
+  border-radius: 15px;
+}
+
+.profile-image {
+  display: block;
+  margin: auto;
+  border-radius: 25px;
 }
 
 .content h1 {
